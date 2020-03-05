@@ -132,13 +132,6 @@
 						.appendTo(optionsList);
 				});
 			}
-
-			$('<span>')
-				.addClass('appStore menuBtn')
-				.text(_('get the app.'))
-				.click(Engine.getApp)
-				.appendTo(menu);
-
 			$('<span>')
 				.addClass('lightsOff menuBtn')
 				.text(_('lights off.'))
@@ -156,13 +149,6 @@
 				.text(_('restart.'))
 				.click(Engine.confirmDelete)
 				.appendTo(menu);
-
-			$('<span>')
-				.addClass('menuBtn')
-				.text(_('share.'))
-				.click(Engine.share)
-				.appendTo(menu);
-
 			$('<span>')
 				.addClass('menuBtn')
 				.text(_('save.'))
@@ -182,7 +168,7 @@
 			$('<span>')
 				.addClass('menuBtn')
 				.text(_('github.'))
-				.click(function() { window.open('https://github.com/doublespeakgames/adarkroom'); })
+				.click(function() { window.open('https://github.com/Kaushik1525933/Kaushik1525933.github.io'); })
 				.appendTo(menu);
 
 			// Register keypress handlers
